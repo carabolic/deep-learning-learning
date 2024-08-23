@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deep-learning-learning"
+version = "0.1.0"
+description = ""
+authors = ["Christoph Bruecke <christoph.bruecke@hellofresh.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorflow = "^2.17.0"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+tqdm = "^4.66.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
